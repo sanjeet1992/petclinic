@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: initsixcloud/petclinic
+  repository: sanjeet1992/auth-services
   tag: latest
   pullPolicy: IfNotPresent
 
