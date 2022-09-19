@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: sanjeet1992/auth-services
+  repository: sanjeet1992/auth
   tag: latest
   pullPolicy: IfNotPresent
 
