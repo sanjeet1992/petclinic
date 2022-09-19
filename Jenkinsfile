@@ -7,7 +7,7 @@ pipeline {
                         sh 'cp -R helm/* .'
 		        sh 'ls -ltr'
                         sh 'pwd'
-                        sh '/usr/bin/helm upgrade --install auth-services petclinic  --set image.repository=hub.docker.com/repository/docker/sanjeet1992/auth-services --set image.tag=1'
+                        sh '/usr/bin/helm upgrade --install auth-services petclinic  --set image.repository=registry.hub.docker.com/docker/sanjeet1992/auth-services --set image.tag=1'
               			
             }           
         }
